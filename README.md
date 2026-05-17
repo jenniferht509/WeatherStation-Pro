@@ -28,18 +28,18 @@ Cliquez ici : https://wokwi.com/projects/464144352519497729
 ## Composants utilises
 | Composant | Quantite | Role |
 | :--- | :---: | :--- |
-| Raspberry Pi Pico | 1 | |
-| DHT22 | 2 | |
-| BMP180/BMP280 | 1 | |
-| MQ-2 / MQ-135 | 1 | |
-| OLED SSD1306 | 1 | |
-| LED RGB | 1 | |
-| Servo SG90 | 1 | |
-| Buzzer | 1 | |
-| Boutons poussoirs | 2 | |
-| Potentiomètre | 1 | |
-| Résistances 10kΩ | 2 | |
-| Résistances 220Ω | 3 | |
+| Raspberry Pi Pico | 1 | Microcontrôleur principal exécutant le script MicroPython. |
+| DHT22 | 2 | Capteurs numériques de température et d'humidité pour les deux zones. |
+| BMP180/BMP280 | 1 | Capteur de pression barométrique pour le suivi atmosphérique. |
+| MQ-2 / MQ-135 | 1 | Capteur de gaz pour le contrôle de la qualité de l'air. |
+| OLED SSD1306 | 1 | Écran d'affichage pour visualiser les mesures et l'état du système. |
+| LED RGB | 1 | Indicateur visuel multicolore pour signaler le niveau de danger. |
+| Servo SG90 | 1 | Actionneur mécanique pour indiquer physiquement l'état d'alerte. |
+| Buzzer | 1 | Signal sonore d'avertissement en cas de dépassement de seuil critique. |
+| Boutons poussoirs | 2 | Boutons dédiés à la navigation des pages OLED et au reset. |
+| Potentiomètre | 1 | Composant analogique pour ajuster manuellement les seuils d'alerte. |
+| Résistances 10kΩ | 2 | Résistances de tirage pour la stabilisation des boutons poussoirs. |
+| Résistances 220Ω | 3 | Résistances de protection pour les broches de la LED RGB. |
 
 Informations techniques complémentaires sur les composants (Notes)
 * **Fonctionnalités :** Surveillance double zone, Comparaison température/humidité, Détection de gaz, Affichage OLED, LED RGB intelligente, Alertes sonores, Contrôle du servo, Historique min/max, Réglage du seuil d’alerte.

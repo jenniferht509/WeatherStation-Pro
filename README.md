@@ -41,10 +41,6 @@ Cliquez ici : https://wokwi.com/projects/464144352519497729
 | Résistances 10kΩ | 2 | Résistances de tirage pour la stabilisation des boutons poussoirs. |
 | Résistances 220Ω | 3 | Résistances de protection pour les broches de la LED RGB. |
 
-Informations techniques complémentaires sur les composants (Notes)
-* **Fonctionnalités :** Surveillance double zone, Comparaison température/humidité, Détection de gaz, Affichage OLED, LED RGB intelligente, Alertes sonores, Contrôle du servo, Historique min/max, Réglage du seuil d’alerte.
-* **Fichiers du projet :** `main.py`, `diagram.json`, `ssd1306.py`
-* **Technologies utilisées :** MicroPython, Raspberry Pi Pico, Wokwi, GitHub
 
 ### GPIO utilisés
 | Fonction | GPIO |

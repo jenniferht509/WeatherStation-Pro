@@ -67,10 +67,10 @@ Informations techniques complémentaires sur les composants (Notes)
 ## Tests realises
 | Test | Resultat attendu | Resultat obtenu | OK/NOK |
 | :--- | :--- | :--- | :---: |
-| **OLED SSD1306** | L’écran affiche plusieurs pages : 1. Zone 1, 2. Zone 2, 3. Différence, 4. Gaz, 5. Pression, 6. État système. Navigation avec le bouton GP14. | | |
-| **LED RGB** | Vert : Normal / Jaune : Alerte moyenne / Rouge : Danger / Bleu : Gaz détecté / Violet : Danger critique. | | |
-| **Servo SG90** | 0° : Normal / 90° : Alerte / 180° : Danger. | | |
-| **Buzzer** | Le buzzer s’active si : gaz dangereux détecté, différence température > 5°C, humidité critique. | | |
+| **OLED SSD1306** | L’écran affiche plusieurs pages : 1. Zone 1, 2. Zone 2, 3. Différence, 4. Gaz, 5. Pression, 6. État système. Navigation avec le bouton GP14. | Les pages défilent correctement et dans l'ordre à chaque appui sur le bouton GP14. | OK |
+| **LED RGB** | Vert : Normal / Jaune : Alerte moyenne / Rouge : Danger / Bleu : Gaz détecté / Violet : Danger critique. | La LED change instantanément de couleur selon l'état des mesures et des seuils. | OK |
+| **Servo SG90** | 0° : Normal / 90° : Alerte / 180° : Danger. | Le servomoteur se positionne précisément aux angles configurés selon la gravité. | OK |
+| **Buzzer** | Le buzzer s’active si : gaz dangereux détecté, différence température > 5°C, humidité critique. | Le buzzer émet un signal sonore clair dès qu'une anomalie est détectée. | OK |
 
 ## Ameliorations possibles
 - Ajouter un module de communication sans fil (comme le Wi-Fi sur Pico W) pour envoyer les données météo vers une interface web ou cloud.

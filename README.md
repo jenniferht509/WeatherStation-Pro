@@ -38,7 +38,7 @@ Cliquez ici : https://wokwi.com/projects/465292447307710465
 | Buzzer | 1 | Signal sonore d'avertissement en cas de dépassement de seuil critique. |
 | Boutons poussoirs | 2 | Boutons dédiés à la navigation des pages OLED et au reset. |
 | Potentiomètre | 1 | Composant analogique pour ajuster manuellement les seuils d'alerte. |
-| Résistances 10kΩ | 2 | Résistances de tirage pour la stabilisation des boutons poussoirs. |
+| Résistances 10kΩ | 4 | Résistances de tirage pour la stabilisation des boutons poussoirs. |
 | Résistances 220Ω | 3 | Résistances de protection pour les broches de la LED RGB. |
 
 

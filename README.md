@@ -1,4 +1,4 @@
-# WeatherStation Pro
+# WeatherStation Project
 
 ## Membres du groupe
 | Nom | Rôle |
